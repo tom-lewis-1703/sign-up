@@ -1,0 +1,124 @@
+* {
+    font-family: 'Play';
+}
+
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    width: 150px;
+}
+
+#logo-title {
+    font-size: 3rem;
+    color: rgb(255, 252, 252);
+    text-shadow: 2px 2px black;
+}
+
+#bg {
+    position: absolute;
+    background-color: rgb(7, 7, 39, 0.6);
+    width: 35vw;
+    margin-top: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-img {
+    width: 35vw;
+    height: 100vh;
+    display: block;
+}
+
+.top-div {
+    background-color: rgb(12, 12, 43);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+    height: 20vh;
+    font-size: 36px;
+}
+
+#mid-header {
+    margin-top: -50px;
+}
+
+.mid-div {
+    background-color: rgb(33, 33, 79);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    height: 30vh;
+}
+
+.bot-div {
+    background-color: rgb(12, 12, 43);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 80px;
+    height: 32.8vh;
+}
+
+button {
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    box-shadow: 3px 3px black;
+    transition: .4s;
+}
+
+input {
+    width: 220px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    text-indent: 3px;
+}
+
+button:hover {
+    transition: .4s;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(235, 61, 61);
+}
+
+#desc {
+    font-size: 2.25rem;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(235, 61, 61);
+}
+
+#acc {
+    font-size: 18px;
+}
+
+#know {
+    color: rgb(251, 0, 0);
+}
